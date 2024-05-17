@@ -165,7 +165,7 @@ function UpdateBaseMap(u,t,p){
   if(t== "ESRI"){
     var NewBaseMap = new ol.source.TileArcGISRest({
       url : u,
-      attributions  : ['Open Layer, Esri, Agus Al-Ridha']
+      attributions  : ['Open Layer, Esri, Muhammad Adiyat']
     });
     Basemap.setSource(NewBaseMap); 
   }else{
